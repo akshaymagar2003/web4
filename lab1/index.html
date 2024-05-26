@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <style>
+    h2 {
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+
+    body {
+      margin-bottom: 25%;
+
+    }
+
+    #img {
+      margin-top: 10%;
+      align-items: center;
+      object-position: 50% 50%;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 0.7cm;
+      border-radius: 50%;
+      border: 0.15cm solid black;
+
+      object-position: 50% 50%;
+    }
+
+    .column {
+      float: left;
+      width: 32%;
+      text-align: center;
+      margin-right: 1%;
+      border-width: 2%;
+      border: 1px solid rgb(0, 0, 0);
+      height: 300px;
+    }
+ #myVideo {
+      position: fixed;
+      right: 0;
+      opacity: 30%;
+      bottom: 0;
+      left :0;
+      right: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      margin-bottom: 2%;
+    }
+      @media screen and (max-width: 1000px) {
+        .column {
+            width: 100%; /* Make columns take full width on smaller screens */
+            margin-right: 0; /* Remove margin between columns */
+            margin-bottom: 2%; /* Add some margin bottom for spacing */
+        }
+
+        .column:last-child {
+            margin-bottom: 0; /* Remove bottom margin for the last column */
+        }
+
+        ul {
+            padding-left: 15px; /* Adjust padding for lists */
+        }
+
+        img {
+            width: 150px; /* Reduce image size for smaller screens */
+            height: 150px;
+        }}
+  </style>
+</head>
+
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="g1.mp4" type="video/mp4">
+
+  </video>
+  <h1 style="text-align: center; color: rgb(92, 0, 240);">Curriculum Vital</h1>
+
+  <div id="maindiv" class="row">
+    <div class="column">
+
+      <div id="img">
+        <img src="logo.png" />
+      </div>
+    </div>
+    <div class="column" style="background-color:#bbb; ">
+      <h2>Education details</h2>
+      <ul style="text-align: left;">
+        <li><b>College name</b> - Vishwakarma institute of technology</li>
+        <li><b>CGPA</b> - 8.4</li>
+        <hr style="color:rgb(11, 11, 11) " color="rgb(11, 11, 11)" width="75%">
+        <li><b>MSc Space Syntax:</b> Architecture and Cities</li>
+        <li>Bartlett School of Architecture (UCL)</li>
+        <li>(UCL Archrecture Department Excelinios Award Nynd</li>
+        <li>Spatial Dynamics and Computation</li>
+        <li>Buildings Organisations end Networks</li>
+        <li>Desion as a Krowedos-Bases Procets</li>
+
+      </ul>
+      </p>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+      <h2>Skills</h2>
+      <ul style="list-style-type: none;">
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Angular.js</li>
+        <li>MongoDB</li>
+        <li>AWS</li>
+        <li>Java</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h2>Personal details</h2>
+      <p><b>Name</b> - XYZ<br>
+        <b>DOB</b> 12-07-2023<br>
+        <b>Email</b> akshay@email.com<br>
+        <b>Mob No-</b>(+91) 456-7890<br>
+        <b>dev channel-</b>jackmac.dev<br>
+        <b>linkedin-</b>linkedin.com/in/justin-mac<br>
+        <b>Github-</b>github.com/jmacattack<br>
+      </p>
+      </p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>Experience</h2>
+      <p><b>Squarespace</b>
+        <b>August 2020 - current</b>
+      <ul style="text-align: left;">
+        <li>Coached 4 junior designers in ARIA and A11y accessibility
+          standards.</li>
+        <li>Created and oversaw wireframe designs from client requests.</li>
+        <li>Spearheaded transition from firebase to AWS, saving company
+          $3,700+ monthly and increasing load speeds by an average of 38%.</li>
+        <li>Developed documentation to teach new team members company
+          standards and best practices in React.js and Node.js.</li>
+        <li>Addressed complex issues with real-time lead prioritization using
+          Websocket connectivity.</li>
+      </ul>
+      </p>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+      <h2>RELEVANT COURSES</h2>
+      <ul style="text-align: left;">
+        <li>Data Structures</li>
+        <li>Database Management Systems</li>
+        <li>Software Design Methodology</li>
+        <li>Responsive Design</li>
+        <li>OOP Web Development</li>
+        <li>Computer Science and Engineering</li>
+        <li>Biotechnology Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Aeronautical Engineering</li>
+
+        <li>Data Science</li>
+      </ul>
+    </div>
+  </div>
+  <div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</body>
+
+</html>

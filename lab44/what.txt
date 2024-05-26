@@ -1,0 +1,16 @@
+use grid  to make the columns and rows 
+use wrapper in css having proprties like "display" and "positions"
+make display as grid to enablw the properties of rows and columns
+ .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            column-gap: 10px;
+            row-gap: 1em;
+        }
+
+column gap is used to give thegap between the columns 
+row gap is used to give gap  between the rows 
+repeat is used to repeat the rows and columns 
+ grid-template-columns  is used to give the number of columns 
+
+

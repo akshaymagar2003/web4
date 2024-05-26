@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 3</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <style>
+        .array-container {
+            border: 1px solid #056108;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+ #myVideo {
+      position: fixed;
+      right: 0;
+      opacity: 30%;
+      bottom: 0;
+      left :0;
+      right: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover; 
+      z-index: -1;
+    }
+        .array-title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        <!-- .list-group-item {
+            font-weight: bold;
+            margin-top: 0.5rem;
+        } -->
+       
+            
+        
+        .controls {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .controls input, .controls button {
+            margin-right: 0.5rem;
+        }
+
+        .search-input {
+            width: 100%;
+        }
+    </style>
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="g1.mp4" type="video/mp4">
+
+        </video>
+        <div class="container mt-3">
+            <h1>Assignment 4</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="array-container">
+                        <h3 class="array-title">Integer Array</h3>
+                        <div class="controls">
+                            <input type="number" id="int-to-add"
+                                class="form-control"
+                                placeholder="Enter integer">
+                            <button id="add-int-btn"
+                                class="btn btn-primary">Add</button>
+                            <button id="sort-int-btn"
+                                class="btn btn-success">Sort</button>
+                            <button id="search-int-btn"
+                                class="btn btn-info">Search</button>
+                        </div>
+                        <input type="number" id="int-to-search"
+                            class="form-control search-input mt-2"
+                            placeholder="Enter integer to search">
+                        <ul id="integer-list" class="list-group"></ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="array-container">
+                        <h3 class="array-title">Named Entity Array</h3>
+                        <div class="controls">
+                            <input type="text" id="named-entity-name"
+                                class="form-control"
+                                placeholder="Enter named entity">
+                            <button id="add-named-entity-btn"
+                                class="btn btn-primary">Add</button>
+                            <button id="sort-named-entity-btn"
+                                class="btn btn-success">Sort</button>
+                            <button id="search-named-entity-btn"
+                                class="btn btn-info">Search</button>
+                        </div>
+                        <input type="text" id="named-entity-search"
+                            class="form-control search-input mt-2"
+                            placeholder="Enter search term">
+                        <ul id="named-entity-list" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

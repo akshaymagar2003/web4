@@ -1,0 +1,22 @@
+<slabs>
+    <slab>
+        <start>1</start>
+        <end>50</end>
+        <rate>3.50</rate>
+    </slab>
+    <slab>
+        <start>51</start>
+        <end>150</end>
+        <rate>4.00</rate>
+    </slab>
+    <slab>
+        <start>151</start>
+        <end>250</end>
+        <rate>5.20</rate>
+    </slab>
+    <slab>
+        <start>251</start>
+        <end>999999</end>
+        <rate>6.50</rate>
+    </slab>
+</slabs>
